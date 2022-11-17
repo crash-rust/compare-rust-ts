@@ -5,8 +5,10 @@ pub fn rcs() {
     fix_read_name();
 }
 
+#[allow(unused)]
 fn read_name() {
-    // let name = String::from("jaylen");
+    #[allow(unused)]
+    let name = String::from("jaylen");
 
     // for _ in 0..10 {
     //     let cur_name = name;
